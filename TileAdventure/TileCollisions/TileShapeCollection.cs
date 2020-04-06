@@ -363,7 +363,7 @@ namespace FlatRedBall.TileCollisions
 
         public void RemoveCollisionAtWorld(float x, float y)
         {
-            AxisAlignedRectangle existing = GetTileAt(x, y);
+            AxisAlignedRectangle existing = GetRectangleAtPosition(x, y);
             if (existing != null)
             {
                 ShapeManager.Remove(existing);

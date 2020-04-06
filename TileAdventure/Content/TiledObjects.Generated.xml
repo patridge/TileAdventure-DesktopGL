@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objecttypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <objecttype name="Character">
+    <property name="MovementSpeed" type="float" default="60" />
+  </objecttype>
+  <objecttype name="MapNavigationTrigger">
+    <property name="TargetMap" type="string" />
+    <property name="StartPointName" type="string" />
+  </objecttype>
+  <objecttype name="StartPoint" />
+</objecttypes>

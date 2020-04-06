@@ -69,141 +69,65 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
-    <Reference Include="OcularPlane, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\OcularPlane.Networking.WcfTcp.Host.1.0.0\lib\net452\OcularPlane.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OcularPlane.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\OcularPlane.Networking.WcfTcp.Host.1.0.0\lib\net452\OcularPlane.Models.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OcularPlane.Networking.WcfTcp.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\OcularPlane.Networking.WcfTcp.Host.1.0.0\lib\net452\OcularPlane.Networking.WcfTcp.Common.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OcularPlane.Networking.WcfTcp.Host, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\OcularPlane.Networking.WcfTcp.Host.1.0.0\lib\net452\OcularPlane.Networking.WcfTcp.Host.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="content\entities\character\boyanimations.achx">
+    <None Include="Content\Entities\Character\BoyAnimations.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>BoyAnimations</Name>
     </None>
-    <None Include="content\entities\character\ghostanimations.achx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>GhostAnimations</Name>
-    </None>
-    <None Include="content\entities\character\girlanimations.achx">
+    <None Include="Content\Entities\Character\GirlAnimations.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GirlAnimations</Name>
     </None>
-    <None Include="content\entities\dialogdisplay\bitmapfontfile.fnt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>BitmapFontFile</Name>
-    </None>
-    <None Include="content\entities\dialogdisplay\bitmapfontfile_0.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>BitmapFontFile_0</Name>
-    </None>
-    <None Include="content\entities\dialogdisplay\tmxfile.tmx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>TmxFile</Name>
-    </None>
-    <None Include="content\globalcontent\characters.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>characters</Name>
-    </None>
-    <None Include="content\globalcontent\dead.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>dead</Name>
-    </None>
-    <None Include="content\globalcontent\gametext.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>GameText</Name>
-    </None>
-    <None Include="content\screens\gamescreen\levels\level1.tmx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>Level1</Name>
-    </None>
-    <None Include="content\screens\gamescreen\levels\level2.tmx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>Level2</Name>
-    </None>
-    <None Include="content\screens\gamescreen\levels\testlevel.tmx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>TestLevel</Name>
-    </None>
-    <None Include="content\screens\gamescreen\tilesets\basictiles.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>basictiles</Name>
-    </None>
-    <None Include="content\screens\gamescreen\tilesets\basictiles.tsx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>basictiles</Name>
-    </None>
-    <None Include="content\screens\gamescreen\tilesets\characters.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>characters</Name>
-    </None>
-    <None Include="Entities\Character\BoyAnimations.achx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>BoyAnimations</Name>
-    </None>
-    <None Include="Entities\Character\GirlAnimations.achx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>GirlAnimations</Name>
-    </None>
-    <None Include="Entities\Character\GhostAnimations.achx">
+    <None Include="Content\Entities\Character\GhostAnimations.achx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GhostAnimations</Name>
     </None>
-    <None Include="Entities\DialogDisplay\BitmapFontFile.fnt">
+    <None Include="Content\Entities\DialogDisplay\BitmapFontFile.fnt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>BitmapFontFile</Name>
     </None>
-    <None Include="Entities\DialogDisplay\BitmapFontFile_0.png">
+    <None Include="Content\Entities\DialogDisplay\BitmapFontFile_0.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>BitmapFontFile_0</Name>
     </None>
-    <None Include="Entities\DialogDisplay\TmxFile.tmx">
+    <None Include="Content\Entities\DialogDisplay\TmxFile.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>TmxFile</Name>
     </None>
-    <None Include="GlobalContent\characters.png">
+    <None Include="Content\GlobalContent\characters.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>characters</Name>
     </None>
-    <None Include="GlobalContent\dead.png">
+    <None Include="Content\GlobalContent\dead.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>dead</Name>
     </None>
-    <None Include="GlobalContent\GameText.csv">
+    <None Include="Content\GlobalContent\GameText.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GameText</Name>
     </None>
-    <None Include="Screens\GameScreen\Levels\Level1.tmx">
+    <None Include="Content\Screens\GameScreen\Levels\Level1.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Level1</Name>
     </None>
-    <None Include="Screens\GameScreen\Levels\Level2.tmx">
+    <None Include="Content\Screens\GameScreen\Levels\Level2.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Level2</Name>
     </None>
-    <None Include="Screens\GameScreen\Levels\TestLevel.tmx">
+    <None Include="Content\Screens\GameScreen\Levels\TestLevel.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>TestLevel</Name>
     </None>
-    <None Include="Screens\GameScreen\Tilesets\basictiles.png">
+    <None Include="Content\Screens\GameScreen\Tilesets\basictiles.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>basictiles</Name>
     </None>
-    <None Include="Screens\GameScreen\Tilesets\basictiles.tsx">
+    <None Include="Content\Screens\GameScreen\Tilesets\basictiles.tsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>basictiles</Name>
     </None>
-    <None Include="Screens\GameScreen\Tilesets\characters.png">
+    <None Include="Content\Screens\GameScreen\Tilesets\characters.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>characters</Name>
     </None>
@@ -360,14 +284,18 @@
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
     <None Include="app.config" />
-    <None Include="packages.config" />
     <None Include="redball.BMP">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="OcularPlane.Networking.WcfTcp.Host">
+      <Version>1.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>

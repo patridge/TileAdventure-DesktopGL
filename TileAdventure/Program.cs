@@ -2,7 +2,9 @@ using System;
 
 namespace TileAdventure
 {
-#if WINDOWS || XBOX
+    /// <summary>
+    /// The main class.
+    /// </summary>
     static class Program
     {
         /// <summary>
@@ -16,6 +18,4 @@ namespace TileAdventure
             }
         }
     }
-#endif
 }
-

@@ -95,39 +95,39 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>TmxFile</Name>
     </None>
-    <None Include="Content\GlobalContent\characters.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Name>characters</Name>
-    </None>
-    <None Include="Content\GlobalContent\dead.png">
+    <None Include="Content\dead.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>dead</Name>
     </None>
-    <None Include="Content\GlobalContent\GameText.csv">
+    <None Include="Content\GameText.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>GameText</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Levels\Level1.tmx">
+    <None Include="content\characters.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Name>characters</Name>
+    </None>
+    <None Include="Content\GumProject\Screens\GameScreen\Levels\Level1.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Level1</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Levels\Level2.tmx">
+    <None Include="Content\GumProject\Screens\GameScreen\Levels\Level2.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>Level2</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Levels\TestLevel.tmx">
+    <None Include="Content\GumProject\Screens\GameScreen\Levels\TestLevel.tmx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>TestLevel</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Tilesets\basictiles.png">
+    <None Include="Content\GumProject\Screens\GameScreen\Tilesets\basictiles.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>basictiles</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Tilesets\basictiles.tsx">
+    <None Include="Content\GumProject\Screens\GameScreen\Tilesets\basictiles.tsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>basictiles</Name>
     </None>
-    <None Include="Content\Screens\GameScreen\Tilesets\characters.png">
+    <None Include="Content\GumProject\Screens\GameScreen\Tilesets\characters.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Name>characters</Name>
     </None>

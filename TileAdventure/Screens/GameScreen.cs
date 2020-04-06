@@ -31,8 +31,8 @@ using Texture2D = Microsoft.Xna.Framework.Graphics.Texture2D;
 
 namespace TileAdventure.Screens
 {
-	public partial class GameScreen
-	{
+    public partial class GameScreen
+    {
         static string levelToLoad = "Level1";
         static string startPointName = "BottomOfTown";
 
@@ -44,7 +44,7 @@ namespace TileAdventure.Screens
             }
         }
 
-		void CustomInitialize()
+        void CustomInitialize()
         {
             LoadLevel(levelToLoad);
 
@@ -111,7 +111,7 @@ namespace TileAdventure.Screens
         }
 
         void CustomActivity(bool firstTimeCalled)
-		{
+        {
             DialogActivity();
 
             if (CanMoveCharacter)
@@ -120,7 +120,7 @@ namespace TileAdventure.Screens
             }
 
             CollisionActivity();
-		}
+        }
 
         private void DialogActivity()
         {
@@ -177,10 +177,10 @@ namespace TileAdventure.Screens
         }
 
         void CustomDestroy()
-		{
+        {
 
 
-		}
+        }
 
         static void CustomLoadStaticContent(string contentManagerName)
         {
@@ -188,5 +188,5 @@ namespace TileAdventure.Screens
 
         }
 
-	}
+    }
 }

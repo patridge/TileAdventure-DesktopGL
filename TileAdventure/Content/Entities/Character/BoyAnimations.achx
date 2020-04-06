@@ -7,7 +7,7 @@
     <Name>WalkDown</Name>
     <ColorKey>0</ColorKey>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>48</LeftCoordinate>
       <RightCoordinate>64</RightCoordinate>
@@ -15,7 +15,7 @@
       <BottomCoordinate>16</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -23,7 +23,7 @@
       <BottomCoordinate>16</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>80</LeftCoordinate>
       <RightCoordinate>96</RightCoordinate>
@@ -31,7 +31,7 @@
       <BottomCoordinate>16</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -43,7 +43,7 @@
     <Name>WalkLeft</Name>
     <ColorKey>0</ColorKey>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>48</LeftCoordinate>
       <RightCoordinate>64</RightCoordinate>
@@ -51,7 +51,7 @@
       <BottomCoordinate>32</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -59,7 +59,7 @@
       <BottomCoordinate>32</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>80</LeftCoordinate>
       <RightCoordinate>96</RightCoordinate>
@@ -67,7 +67,7 @@
       <BottomCoordinate>32</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -79,7 +79,7 @@
     <Name>WalkRight</Name>
     <ColorKey>0</ColorKey>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>48</LeftCoordinate>
       <RightCoordinate>64</RightCoordinate>
@@ -87,7 +87,7 @@
       <BottomCoordinate>48</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -95,7 +95,7 @@
       <BottomCoordinate>48</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>80</LeftCoordinate>
       <RightCoordinate>96</RightCoordinate>
@@ -103,7 +103,7 @@
       <BottomCoordinate>48</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -115,7 +115,7 @@
     <Name>WalkUp</Name>
     <ColorKey>0</ColorKey>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>48</LeftCoordinate>
       <RightCoordinate>64</RightCoordinate>
@@ -123,7 +123,7 @@
       <BottomCoordinate>64</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>
@@ -131,7 +131,7 @@
       <BottomCoordinate>64</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>80</LeftCoordinate>
       <RightCoordinate>96</RightCoordinate>
@@ -139,7 +139,7 @@
       <BottomCoordinate>64</BottomCoordinate>
     </Frame>
     <Frame>
-      <TextureName>..\..\globalcontent\characters.png</TextureName>
+      <TextureName>..\..\characters.png</TextureName>
       <FrameLength>0.2</FrameLength>
       <LeftCoordinate>64</LeftCoordinate>
       <RightCoordinate>80</RightCoordinate>

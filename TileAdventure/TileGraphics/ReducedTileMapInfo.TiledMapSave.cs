@@ -299,8 +299,8 @@ namespace TMXGlueLib.DataTypes
                     quad.Name = objectInstance.Name;
                     if (string.IsNullOrEmpty(quad.Name))
                     {
-                        var prop = quad.QuadSpecificProperties.FirstOrDefault(quadProp => quadProp.Name.ToLowerInvariant() == "name");
-                        quad.Name = (string)prop.Value;
+                        var prop = quad.QuadSpecificProperties?.FirstOrDefault(quadProp => quadProp.Name.ToLowerInvariant() == "name");
+                        quad.Name = (string)prop?.Value;
                     }
 
                     reducedLayerInfo?.Quads.Add(quad);

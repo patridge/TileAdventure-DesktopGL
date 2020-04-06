@@ -26,7 +26,7 @@ namespace TileAdventure
 
 #if WINDOWS_PHONE || ANDROID || IOS
 
-			// Frame rate is 30 fps by default for Windows Phone,
+            // Frame rate is 30 fps by default for Windows Phone,
             // so let's keep that for other phones too
             TargetElapsedTime = TimeSpan.FromTicks(333333);
             graphics.IsFullScreen = true;
@@ -45,19 +45,19 @@ namespace TileAdventure
         protected override void Initialize()
         {
 #if IOS
-			var bounds = UIKit.UIScreen.MainScreen.Bounds;
-			var nativeScale = UIKit.UIScreen.MainScreen.Scale;
-			var screenWidth = (int)(bounds.Width * nativeScale);
-			var screenHeight = (int)(bounds.Height * nativeScale);
-			graphics.PreferredBackBufferWidth = screenWidth;
-			graphics.PreferredBackBufferHeight = screenHeight;
+            var bounds = UIKit.UIScreen.MainScreen.Bounds;
+            var nativeScale = UIKit.UIScreen.MainScreen.Scale;
+            var screenWidth = (int)(bounds.Width * nativeScale);
+            var screenHeight = (int)(bounds.Height * nativeScale);
+            graphics.PreferredBackBufferWidth = screenWidth;
+            graphics.PreferredBackBufferHeight = screenHeight;
 #endif
 
             FlatRedBallServices.InitializeFlatRedBall(this, graphics);
 
             FlatRedBallServices.GraphicsOptions.TextureFilter = TextureFilter.Point;
 
-			CameraSetup.SetupCamera(SpriteManager.Camera, graphics);
+            CameraSetup.SetupCamera(SpriteManager.Camera, graphics);
 
             GlobalContent.Initialize();
 

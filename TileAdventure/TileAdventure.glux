@@ -36,14 +36,14 @@
               <ValueAsBool>true</ValueAsBool>
             </PropertySave>
           </Properties>
-          <Name>Screens/GameScreen/Levels/Level1.tmx</Name>
+          <Name>GumProject/Screens/GameScreen/Levels/Level1.tmx</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <LoadedOnlyWhenReferenced>true</LoadedOnlyWhenReferenced>
           <RuntimeType>FlatRedBall.TileGraphics.LayeredTileMap</RuntimeType>
           <ProjectsToExcludeFrom />
         </ReferencedFileSave>
         <ReferencedFileSave>
-          <Name>Screens/GameScreen/Tilesets/basictiles.png</Name>
+          <Name>GumProject/Screens/GameScreen/Tilesets/basictiles.png</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <RuntimeType>Microsoft.Xna.Framework.Graphics.Texture2D</RuntimeType>
           <ProjectsToExcludeFrom />
@@ -55,7 +55,7 @@
               <ValueAsBool>true</ValueAsBool>
             </PropertySave>
           </Properties>
-          <Name>Screens/GameScreen/Levels/Level2.tmx</Name>
+          <Name>GumProject/Screens/GameScreen/Levels/Level2.tmx</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <LoadedOnlyWhenReferenced>true</LoadedOnlyWhenReferenced>
           <RuntimeType>FlatRedBall.TileGraphics.LayeredTileMap</RuntimeType>
@@ -68,14 +68,14 @@
               <ValueAsBool>true</ValueAsBool>
             </PropertySave>
           </Properties>
-          <Name>Screens/GameScreen/Levels/TestLevel.tmx</Name>
+          <Name>GumProject/Screens/GameScreen/Levels/TestLevel.tmx</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <LoadedOnlyWhenReferenced>true</LoadedOnlyWhenReferenced>
           <RuntimeType>FlatRedBall.TileGraphics.LayeredTileMap</RuntimeType>
           <ProjectsToExcludeFrom />
         </ReferencedFileSave>
         <ReferencedFileSave>
-          <Name>Screens/GameScreen/Tilesets/characters.png</Name>
+          <Name>GumProject/Screens/GameScreen/Tilesets/characters.png</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <RuntimeType>Microsoft.Xna.Framework.Graphics.Texture2D</RuntimeType>
           <ProjectsToExcludeFrom />
@@ -104,6 +104,22 @@
             <PropertySave>
               <Name>SourceType</Name>
               <ValueAsObject xsi:type="SourceType">FlatRedBallType</ValueAsObject>
+            </PropertySave>
+            <PropertySave>
+              <Name>CollisionCreationOptions</Name>
+              <ValueAsInt>0</ValueAsInt>
+            </PropertySave>
+            <PropertySave>
+              <Name>CollisionTileSize</Name>
+              <ValueAsFloat>16</ValueAsFloat>
+            </PropertySave>
+            <PropertySave>
+              <Name>CollisionFillWidth</Name>
+              <ValueAsInt>32</ValueAsInt>
+            </PropertySave>
+            <PropertySave>
+              <Name>CollisionFillHeight</Name>
+              <ValueAsInt>1</ValueAsInt>
             </PropertySave>
           </Properties>
           <SourceType>FlatRedBallType</SourceType>
@@ -223,7 +239,7 @@
       <Name>Screens\TestScreen</Name>
       <ReferencedFiles>
         <ReferencedFileSave>
-          <Name>GlobalContent/dead.png</Name>
+          <Name>dead.png</Name>
           <IsSharedStatic>true</IsSharedStatic>
           <RuntimeType>Microsoft.Xna.Framework.Graphics.Texture2D</RuntimeType>
           <ProjectsToExcludeFrom />
@@ -822,13 +838,13 @@
   </Entities>
   <GlobalFiles>
     <ReferencedFileSave>
-      <Name>GlobalContent/characters.png</Name>
+      <Name>characters.png</Name>
       <IsSharedStatic>true</IsSharedStatic>
       <HasPublicProperty>true</HasPublicProperty>
       <ProjectsToExcludeFrom />
     </ReferencedFileSave>
     <ReferencedFileSave>
-      <Name>GlobalContent/dead.png</Name>
+      <Name>dead.png</Name>
       <IsSharedStatic>true</IsSharedStatic>
       <HasPublicProperty>true</HasPublicProperty>
       <ProjectsToExcludeFrom />
@@ -840,7 +856,7 @@
           <ValueAsBool>true</ValueAsBool>
         </PropertySave>
       </Properties>
-      <Name>GlobalContent/GameText.csv</Name>
+      <Name>GameText.csv</Name>
       <IsSharedStatic>true</IsSharedStatic>
       <HasPublicProperty>true</HasPublicProperty>
       <CreatesDictionary>true</CreatesDictionary>
